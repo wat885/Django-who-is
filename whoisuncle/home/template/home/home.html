@@ -1,0 +1,23 @@
+{% extends 'home/base.html' %} 
+{% load static %}
+
+{% block title%} My Home Page{% endblock title%}
+
+{% block content %}
+
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+
+    <img src="{% static 'image/wat.png' %}" width="300"><br><br>
+
+    <h1 class="display-4 fw-normal">Wat คือใคร?</h1>
+    <p class="fs-5 text-muted">Wat เป็น ITsupport คนที่ชอบเขียนเว็บ ชอบเรียนรู้เทคโนโลยีใหม่ๆ</p>
+  </div>
+
+{% endblock content%}
+
+
+
+{% block link %}
+  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">ดูตัวอย่างโปรเจค</a></li>
+    
+{% endblock link%}

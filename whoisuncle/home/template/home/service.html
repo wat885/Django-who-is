@@ -1,0 +1,68 @@
+{% extends 'home/base.html' %} 
+{% load static %}
+
+{% block title%}Services{% endblock title%}
+
+{% block content %}
+
+<p>นีคือตัวอย่างการให้บริการ ไม่ใช่บริการจริง</p>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">ฟรี</h4>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title pricing-card-title">0 บาท<small class="text-muted fw-light">ต่อเดือน</small></h3>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ตอบคำถามเกี่ยวกับ python ในเพจฟรี</li>
+              <li>สอบถามปัญหาเกียวกับ IoT</li>
+              <li>แนะนำแหล่งเรียนรู้</li>
+              <li>มีวิดีโอในยูทูป</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">สนใจคลิก</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">รายเดือน</h4>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title pricing-card-title">100 บาท<small class="text-muted fw-light">ต่อเดือน</small></h3>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ดูวิดีโอในกลุ่ม</li>
+              <li>ตอบคำถามพิเศษ</li>
+              <li>บริการรีโมท 2 ครั้ง</li>
+              <li>ดูคลิปพื้นฐานได้ทุกตอน</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">สมัครเลย</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Ullimited</h4>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title pricing-card-title">1000 บาท<small class="text-muted fw-light">ต่อเดือน</small></h3>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ดูคลิปอะไรก็ได้ที่เปิดสอน</li>
+              <li>e-book</li>
+              <li>สามารถใช่พื้นที่ออฟฟิตลุง</li>
+              <li>บริการรีโมท 10 ครั้ง</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+{% endblock content%}
+
+
